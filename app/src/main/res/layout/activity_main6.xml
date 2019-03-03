@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/mongo" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="400dp"
+                android:layout_height="285dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="15dp"
+                android:text="Mango:\nRed Rust (Cepbaleuros virescens): The disease attack causes reduction in photosynthetic activity and defoliation of leaves\n\nControl:\t Two to three sprays of Copper Oxychloride (0.3%) is effective in controlling the disease."
+                android:textColor="#910893"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_above="@+id/textView13"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/download" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="Grapes:\nSymptoms:\nInfected leaves appear as tiny, sunken, reddish-brown flecks with yellow halos.\nControl:\nProtection of fruit with fungicides is important from bloom to harvest, especially for susceptible cultivars during warm, wet weather."
+                android:textColor="#040404"
+                android:textSize="25dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_above="@+id/textView13"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/bananas" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="285dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="Symptom:\n1.Yellowing of the lower most leaves starting from margin to midrib of the leaves\nControl:\n1.Growing of banana or paddy for 3-4 years.\n2.Use of quicklime near the base of plant."
+                android:textColor="#040404"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_above="@+id/textView13"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/oranges" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="Oranges:\nSymptoms:\n On the leaves show mottling, yellowing of veins or zinc defiency (i.e. small leaves, interveinal chlorosis and brush-like growth)\nControl:\nStrict control of citrus psyllids.Very severely infected trees not producing economical yield should be up-rooted."
+                android:textColor="#040404"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_above="@+id/textView13"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/sugarcane" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="Sugarcane:\nWhip Smut:\nSymptoms:\n1. Whip smut of sugarcane is a fungal disease caused y  Ustilago sacchari.\n2. A long whip like structure is developed from the apex of the stalk\n1. Remove the whip with thick cloth without allowing the spore to shed and destroy.\n2. Use disease free sets for planting."
+                android:textColor="#040404"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

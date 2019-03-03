@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Agri-Techno</string>
+    <string-array name="District">
+        <item>Select District </item>
+        <item> Kolhapur </item>
+        <item> Nasik </item>
+        <item> Pune </item>
+        <item> Sangli </item>
+        <item> Nagpur </item>
+    </string-array>
+
+</resources>
